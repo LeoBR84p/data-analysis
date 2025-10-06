@@ -1,3 +1,0 @@
-# notebooks sem outputs ao commitar
-*.ipynb filter=nbstripout
-*.ipynb diff=ipynb
