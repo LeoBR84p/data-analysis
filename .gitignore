@@ -1,19 +1,36 @@
-.ipynb_checkpoints/
+# os
 .DS_Store
 Thumbs.db
-*.log
-*.tmp
-# dados/artefatos pesados (não versionar)
-data/
-output/
-runs/
+
 # python
-venv/
-.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.venv*/
+venv/
+
 # segredos
 .env
 *.key
 *.pem
 *.tok
+
+# jupyter/colab
+.ipynb_checkpoints/
+
+# artefatos e dados locais (não versionar)
+data/
+input/                 # inclui input.csv sensível
+output/
+runs/
+logs/
+figures/
+*.log
+*.tmp
+*.bak
+*.png
+*.jpg
+*.pdf
+*.html
+
+# ambientes virtuais antigos
