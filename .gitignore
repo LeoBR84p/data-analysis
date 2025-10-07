@@ -35,3 +35,9 @@ figures/
 
 # ambientes virtuais antigos
 TGN_DECOI/
+/.venv_tgn/
+/.venv_data/
+/drive/
+/sample_data/
+/.config/
+*.ipynb_checkpoints/
