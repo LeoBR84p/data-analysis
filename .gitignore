@@ -1,0 +1,43 @@
+# os
+.DS_Store
+Thumbs.db
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+venv/
+
+# segredos
+.env
+*.key
+*.pem
+*.tok
+
+# jupyter/colab
+.ipynb_checkpoints/
+
+# artefatos e dados locais (não versionar)
+data/
+input/                 # inclui input.csv sensível
+output/
+runs/
+logs/
+figures/
+*.log
+*.tmp
+*.bak
+*.png
+*.jpg
+*.pdf
+*.html
+
+# ambientes virtuais antigos
+TGN_DECOI/
+/.venv_tgn/
+/.venv_data/
+/drive/
+/sample_data/
+/.config/
+*.ipynb_checkpoints/
