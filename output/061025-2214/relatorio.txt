@@ -1,0 +1,74 @@
+arquivo: input.csv
+linhas (inclui cabeçalho): 7574
+colunas: 7
+registros duplicados: 0
+
+[coluna] Emissor
+- tipo: object
+- nulos: 0
+- distintos (não vazios): 64
+- mais frequente: 'BACEN' (2966, 39.16%)
+- menos frequente: 'ANS' (1, 0.01%)
+- comprimentos: min=2, q1=4.0, mediana=5.0, q3=8.0, max=18
+- entropia de shannon: 3.4374
+- top10: 'BACEN' (2966), 'PLANALTO' (1192), 'B3' (589), 'RECEITA FEDERAL' (498), 'CVM' (325), 'ME/MF' (216), 'STN' (200), 'MTE' (164), 'MDR' (162), 'ANEEL' (161)
+
+[coluna] Tipo
+- tipo: object
+- nulos: 0
+- distintos (não vazios): 110
+- mais frequente: 'Comunicado' (1679, 22.17%)
+- menos frequente: 'Acordão' (1, 0.01%)
+- comprimentos: min=3, q1=8.0, mediana=10.0, q3=15.0, max=39
+- entropia de shannon: 4.1609
+- top10: 'Comunicado' (1679), 'Portaria' (1028), 'Decreto' (762), 'Resolução' (675), 'Instrução Normativa BCB' (407), 'Lei' (323), 'Resolução BCB' (298), 'Ofícios e Comunicados' (296), 'Ofício Circular' (263), 'Resolução CMN' (214)
+
+[coluna] Numero
+- tipo: object
+- nulos: 27
+- distintos (não vazios): 5464
+- mais frequente: 'sn' (67, 0.89%)
+- menos frequente: '001-2025-PRE' (1, 0.01%)
+- comprimentos: min=1, q1=3.0, mediana=5.0, q3=6.0, max=17
+- entropia de shannon: 12.0602
+- top10: 'sn' (67), 'S/N' (38), '2' (23), '01' (23), '1' (19), '02' (17), '4' (17), '6' (17), '3' (16), '10' (13)
+
+[coluna] Titulo
+- tipo: object
+- nulos: 0
+- distintos (não vazios): 7480
+- mais frequente: 'RETIFICAÇÃO' (39, 0.51%)
+- menos frequente: '000.723/2022-3 - Monitoramento' (1, 0.01%)
+- comprimentos: min=5, q1=28.0, mediana=32.0, q3=43.0, max=161
+- entropia de shannon: 12.8424
+- top10: 'RETIFICAÇÃO' (39), 'DESPACHO' (7), 'EDITAL DE INTIMAÇÃO' (5), 'Portaria' (5), 'Retificação' (4), 'AVISO' (3), 'Edital de intimação' (3), 'DECRETO Nº 10.939, DE 13 DE JANEIRO DE 2022' (2), 'RESOLUÇÃO GECGR/MF Nº 17, DE 28 DE JANEIRO DE 2025 - Subsecretaria de Relações Financeiras Intergovernamentais' (2), 'DECRETO Nº 10.936, DE 12 DE JANEIRO DE 2022' (2)
+
+[coluna] Data
+- tipo: datetime
+- nulos: 0
+- distintos (não vazios): 1259
+- mais frequente: '2021-04-16 00:00:00' (48, 0.63%)
+- menos frequente: '2014-04-25 00:00:00' (1, 0.01%)
+- comprimentos: min=10, q1=10.0, mediana=10.0, q3=10.0, max=10
+- formato detectado: %d/%m/%Y
+- intervalo temporal: 2014-04-25 00:00:00 → 2025-09-23 00:00:00
+- dias únicos: 1259, média por dia: 6.02
+
+[coluna] Link
+- tipo: object
+- tipo semântico: url
+- nulos: 0
+- distintos (não vazios): 7574
+- todos os dados são distintos
+- comprimentos: min=41, q1=75.0, mediana=89.0, q3=92.0, max=457
+- entropia de shannon: 12.8868
+
+[coluna] Gabarito
+- tipo: bool
+- nulos: 0
+- distintos (não vazios): 2
+- mais frequente: 'True' (4277, 56.47%)
+- menos frequente: 'False' (3297, 43.53%)
+- comprimentos: min=1, q1=1.0, mediana=1.0, q3=1.0, max=1
+- entropia de shannon: 0.9879
+- top10: 'True' (4277), 'False' (3297)
